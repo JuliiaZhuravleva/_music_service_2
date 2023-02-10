@@ -1,4 +1,4 @@
-INSERT INTO genre  (id, name)
+INSERT INTO genre  (genre_id, genre_name)
 values
 (1, 'psytrance'),
 (2, 'electronic'),
@@ -60,7 +60,7 @@ values
 (58, 'Synth-pop'),
 (59, 'psychedelic pop');
 
-insert into artist (id, name)
+insert into artist (artist_id, artist_name)
 values
 (1, 'Gorillaz'),
 (2, 'deadmau5'),
@@ -219,7 +219,7 @@ values
 (31, 58),
 (31, 59);
 
-insert into album (id, year, name)
+insert into album (album_id, album_year, album_name)
 values 
 (1, 2022, 'Demon Days'),
 (2, 2022, 'Gorillaz'),
@@ -403,7 +403,7 @@ values
 (30, 88),
 (31, 89);
 
-insert into track (id, name, duration, album_id)
+insert into track (track_id, track_name, duration, album_id)
 values 
 (1, 'Intro', 63, 1),
 (2, 'Last Living Souls', 197, 1),
@@ -916,7 +916,7 @@ values
 (509, 'Being For The Benefit Of Mr. Kite !', 155, 40),
 (510, 'Within You Without You', 171, 40),
 (511, 'Lovely Rita', 175, 40),
-(512, 'Sgt. Pepper''s Lonely Hearts Club Band', 123, 40),
+(512, 'Sgt. Pepper''s Lonely Hearts Club Band (Reprise)', 123, 40),
 (513, 'A Day in the Life', 307, 40),
 (514, 'Taxman', 156, 41),
 (515, 'Eleanor Rigby', 124, 41),
@@ -1408,7 +1408,7 @@ values
 (1001, 'Trink und Fick', 227, 88),
 (1002, 'Zolo', 173, 88);
 
-insert into compilation (id, name, year)
+insert into compilation (compilation_id, compilation_name, compilation_year)
 values 
 (1, '2013 rock compilation', 2013),
 (2, '2020 rock compilation', 2020),
